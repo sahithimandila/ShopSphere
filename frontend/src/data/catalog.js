@@ -1,0 +1,12 @@
+export const categories = [
+  { name: 'Fashion', icon: 'bi-handbag', color: 'lavender' }, { name: 'Electronics', icon: 'bi-headphones', color: 'blue' },
+  { name: 'Home & Living', icon: 'bi-house-heart', color: 'peach' }, { name: 'Beauty', icon: 'bi-stars', color: 'pink' }, { name: 'Sports', icon: 'bi-bicycle', color: 'mint' }
+];
+export const products = [
+  { id: 1, name: 'AirFlex Runner Pro', brand: 'NOVA', category: 'Fashion', price: 5499, oldPrice: 7999, rating: 4.7, reviews: 124, badge: 'Bestseller', image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85', description: 'Responsive everyday sneakers with breathable mesh and energy-return cushioning.' },
+  { id: 2, name: 'AeroNoise Wireless Headphones', brand: 'SONIQ', category: 'Electronics', price: 8999, oldPrice: 11999, rating: 4.8, reviews: 86, badge: 'Top rated', image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85', description: 'Immersive active noise cancellation, 40-hour battery, and a refined all-day fit.' },
+  { id: 3, name: 'Luna Everyday Tote', brand: 'MIRA', category: 'Fashion', price: 2999, oldPrice: 4499, rating: 4.6, reviews: 73, badge: 'New', image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=85', description: 'Structured vegan-leather tote with thoughtful pockets for work and weekends.' },
+  { id: 4, name: 'Halo Table Lamp', brand: 'NEST', category: 'Home & Living', price: 3499, oldPrice: 4999, rating: 4.5, reviews: 42, badge: 'Limited', image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85', description: 'Warm, sculptural lighting designed to make any corner feel instantly considered.' },
+  { id: 5, name: 'Daily Hydration Set', brand: 'AURA', category: 'Beauty', price: 1899, oldPrice: 2499, rating: 4.7, reviews: 216, badge: 'Bestseller', image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=900&q=85', description: 'A gentle three-step routine for a fresh, comfortable glow every day.' },
+  { id: 6, name: 'Pulse Smart Watch', brand: 'ARC', category: 'Electronics', price: 7499, oldPrice: 9999, rating: 4.4, reviews: 91, badge: 'Deal', image: 'https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=900&q=85', description: 'Track activity, recovery, and notifications in a lightweight premium design.' }
+];
